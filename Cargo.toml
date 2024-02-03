@@ -1,0 +1,13 @@
+[package]
+name = "rubiks_cube"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+wgpu = "0.19.1"
+winit = "0.29.10"
+futures = "0.3"
+bytemuck = { version = "1.14.1", features = ["derive"] }
